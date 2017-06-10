@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/*шапка макету-----------------------*/
+.header{
+    width: 100%;
+    height: 36px;
+    background: RGB(7,75,136);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    
+}
+
+
+.header__menu{
+    height: 36px;
+    width: 755px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.menu__button{
+    height: 36px;
+    width: 383px;
+    border-right: 1px solid white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.menu__button-youbike{
+    height: 36px;
+    width: 100px;
+    font-size: 14px;
+    line-height: 36px;
+    font-family: serif;
+    text-align: center;
+    color: RGB(96,181,237);
+    font-weight: 600;
+}
+.menuAll__button{
+    height: 36px;
+    width: 71px;
+    font-size: 14px;
+    line-height: 36px;
+    font-family: serif;
+    text-align: center;
+    color: RGB(96,181,237);
+      font-weight: 600;
+    
+}
+.menuAll__button:hover,.menu__button-youbike:hover,.menu__lastText:hover{
+   background: RGB(78,171,218);
+    color: white;
+    
+}
+.menu__icon{
+    color: white;
+    line-height: 36px;
+ font-size: 21px;
+    margin-left: 20px;
+    
+    
+}
+.menu__text-mihas{
+    height: 36px;
+    width: 110px;
+
+    line-height: 36px;
+    text-align: center;
+color: white;
+}
+.menu__lastText{
+    height: 36px;
+    width: 190px; 
+   color: white;
+    line-height: 36px;
+    margin-left: 10px;
+    text-align: center;
+}
+.menu__text-underline{
+    text-decoration: underline;
+    color: white;
+}
+/*кінець меню------------------------*/
+
+
+.main{
+    width: 100%;
+   min-height: 1039px;
+    background-image: url(../img/bachground-global.png);
+    background-size: auto ;
+    background-position: -360px 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-top: 215px;
+    padding-bottom: 115px;
+}
+.main__box{
+   min-height: 610px;
+    width: 560px;
+    background: rgba(73,74,67,0.6);
+/*    margin-left: 355px;*/
+    margin: auto;
+/*    background:  dlja maketu poganuj*/
+}
+.box__text-top{
+    height: 64px;
+    width: 100%;
+    border-bottom: 2px solid white;
+    text-align: center;
+    line-height: 64px;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.box__log-face{
+    width: 275px;
+    height: 35px;
+    background: rgb(50,75,132);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 37px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.logo__face{
+    line-height: 35px;
+    font-size: 21px;
+    color: white;
+    margin-left: 10px;
+    border-right: 1px solid rgba(60,66,55,0.8);
+    height: 35px;
+    width: 29px;
+}
+.box__logo-text{
+    font-size: 16px;
+    color: white;
+    line-height: 32px;
+    text-align: center;
+    height: 35px;
+    width: 210px;
+    font-family: sans-serif;
+    word-spacing: -0.1px;
+    
+}
+.logo__text{
+    font-weight: 700;
+}
+.logo__last-sumbol{
+    line-height: 35px;
+    color: white;
+    font-size: 10px;
+    margin-left: -10px;
+}
+
+.box__hr-line{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 28px 0 0 140px;
+    font-family: sans-serif;
+    color: grey;
+    font-size: 13px;
+}
+
+.hr__line{
+    border-top: 1px solid grey;
+    width: 120px;
+    margin:7px 5px 0 5px;
+  
+}
+.box__firstName{
+    margin:30px auto 0;
+    display: block;
+    line-height: 35px;
+    height: 35px;
+      color: white;
+    width: 275px;
+      border: none;
+    padding-left: 10px;
+    background: rgb(27,82,136);
+-webkit-box-shadow: -1px 2px 8px 2px rgba(0,217,255,1);
+box-shadow: -1px 2px 8px 2px rgba(0,217,255,1);
+}
+#firstName__text{
+    font-size: 14px;
+    color: wheat;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+.box__allConteiner{
+    height: 35px;
+    width: 275px;
+    line-height: 35px;
+    display: block;
+    margin: 18px auto 0;
+    background: rgb(16,15,15);
+          color: white;
+      border: none;
+     padding-left: 10px;
+}
+
+
+.box__text-all{
+       font-size: 14px;
+    color: wheat;
+    font-family: sans-serif;
+    margin-left: 15px;
+      border: none;
+}
+.box__allConteiner-last{
+    height: 35px;
+    width: 275px;
+    line-height: 35px;
+    display: block;
+    margin: 14px auto 0;
+    background: rgb(16,15,15);
+    border: none;
+     padding-left: 10px;
+    color: white;
+}
+/*кінець реєстраційних форм------------*/
+.box__checkbox{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+/*    justify-content: center;*/
+    margin: 20px  140px 0;
+    font-family: sans-serif;
+    color: white;
+    
+ }
+.box__checkbox>span{
+  margin-left: 7px;
+    font-size: 14px;
+ }
+.box__create{
+    height: 35px;
+    width: 150px;
+    background: rgb(74,165,215);
+    line-height: 35px;
+    color: white;
+    margin: 19px auto 0;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 3px;
+    word-break: 0.1px;
+    font-size: 14px;
+}
+.box__final-text{
+width: 320px;
+    height: 40px;
+    font-size: 11px;
+    color: white;
+    margin: 20px auto 0;
+    text-align: center;
+    font-family: sans-serif;
+    line-height:14px;
+}
+.select__option{
+    display: none;
+    height: 35px;
+    background: black;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+#select{
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    background: grey;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.menu__none{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/*adaptuvna verstka po4atok*/
+@media screen and (max-width: 768px){
+    .main__box{
+/*        margin: auto;*/
+        width: 80%;
+    }
+    .box__allConteiner,.box__allConteiner-last,.box__firstName{
+        width: 70%;
+        color: white;
+    }
+    .box__log-face{
+         width: 50%;
+        margin-left: 30%;
+        text-align: center;
+        
+    }
+    .logo__face{
+        display: none;
+    }
+    .box__logo-text{
+        text-align: center;
+        font-size: 12px;
+    }
+    .box__checkbox{
+        margin-left: 30%;
+        margin-top: 15px;
+    }
+    .logo__last-sumbol{
+        display: none;
+    }
+/*
+    .header__menu{
+        display: none;
+    }
+*/
+    .select__option{
+/*        display: block;*/
+    }
+    .box__final-text{
+        width: 80%;
+    }
+    
+    .menu__none{
+        display: none;
+    }
+    .menu__button{
+        width: 100%;
+    }
+    .menuAll__button{
+        width: 20%;
+    }
+    .main{
+         padding-top: 50px;
+        height: 100%;
+    }
+    .box__logo-text{
+        width: 100%;
+        
+    }
+    .box__log-face{
+        width: 70%;
+        margin: auto;
+    }
+    .box__hr-line{
+    display: none;
+    }
+}
